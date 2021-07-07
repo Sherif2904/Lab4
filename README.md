@@ -11,7 +11,11 @@ https://lab4-fish-weight.herokuapp.com/  and put the fish dimensions.
 ## To modify
 To run your own version, you can copy the files from the git repo, then make your modifications, then re-deploy it in Heroku and generate your own link.
 Files to modify:
+
 1-weight model.py to modify the prediction model. 
+
 2-FlaskApp.py to modify the flask app. 
+
 3-template/index.html to modify the HTML file and structure of the page. 
+
 4-static/css/style.css to modify the page appearances.
