@@ -18,11 +18,11 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="number" name="Length1" placeholder="Length1" required="required" />
-        <input type="number" name="Length2" placeholder="Length2" required="required" />
-		<input type="number" name="Length3" placeholder="Length3" required="required" />
-		<input type="number" name="Height" placeholder="Height" required="required" />
-		<input type="number" name="Width" placeholder="Width" required="required" />
+    	<input type="number" name="Length1" placeholder="vertical length in cm" required="required" />
+        <input type="number" name="Length2" placeholder="diagonal length in cm" required="required" />
+		<input type="number" name="Length3" placeholder="cross length in cm" required="required" />
+		<input type="number" name="Height" placeholder="height in cm" required="required" />
+		<input type="number" name="Width" placeholder="diagonal width in cm" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
