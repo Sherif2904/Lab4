@@ -1,5 +1,6 @@
-Predict fish weight using fish dimensions
+#Predict fish weight using fish dimensions
 
+##Description 
 In this project I used fish dimensions data set that can found in that link: https://www.kaggle.com/aungpyaeap/fish-market
 I built a gradient descent prediction model to predict the fish weight given its dimensions. Then I built a flask application for the model and made a web page for the prediction UI using HTML and CSS, the web page was then made accessible using Heroku interface.
 To run the application, you can simply go to that link: 
